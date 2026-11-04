@@ -48,6 +48,8 @@ uv run python scripts/shared/validate.py /path/to/prepared-ebird
 
 Choose a new output directory for each run and supply the relevant local source files and eBird reference. The [eBird preparation guide](docs/ebird-preparation.md), [ABAP preparation guide](docs/abap-to-ebird.md), and [data-package reference](docs/data-package.md) explain the workflows and outputs.
 
+To inspect a prepared eBird package in [bird-atlas-explorer](https://raphaelnussbaumer.com/bird-atlas-explorer/), write its Parquet explorer folder with `uv run python scripts/shared/export_explorer.py /path/to/prepared-ebird --zip` and open that folder in the app; see the [explorer export reference](docs/explorer-export.md).
+
 Full EBD preparation uses a reusable trimmed disk cache and processes complete observer histories in batches; observation-scale tables stay out of pandas. The [performance notes](docs/ebird-performance.md) document a complete Africa run and laptop tuning.
 
 ## Project structure
