@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.DS_Store
+data/raw/
+data/prepared/
+data/taxonomy/*
+!data/taxonomy/*crosswalk*.csv
+!data/taxonomy/*overrides*.csv
+data/audits/
+data/cache/

@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use this pipeline, please cite it and the underlying data sources."
+title: "bird-atlas: ABAP and eBird data pipeline"
+type: software
+authors:
+  - family-names: Nussbaumer
+    given-names: Raphaël
